@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f7f3e9;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(20, 30px);
+  gap: 1px;
+  background-color: #d9e4dd;
+  border: 2px solid #b5c8bf;
+}
+
+#grid div {
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+}
+
+.score-board {
+  text-align: left;
+}
+
+.tetromino {
+  background-color: #1b719f; /* Default pastel blue */
+  border: 1px solid #ffffff;
+}
+
+/* Tetromino colors */
+.tetromino-I { background-color: #f4978e; } /* Pastel red */
+.tetromino-O { background-color: #ffcb77; } /* Pastel yellow */
+.tetromino-T { background-color: #d2a6ff; } /* Pastel purple */
+.tetromino-S { background-color: #b9fbc0; } /* Pastel green */
+.tetromino-Z { background-color: #ffadad; } /* Light coral */
+.tetromino-L { background-color: #ffd6a5; } /* Light orange */
+.tetromino-J { background-color: #9aadff; } /* Soft blue */

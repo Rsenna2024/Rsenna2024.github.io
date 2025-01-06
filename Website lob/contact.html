@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Five Bit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wie-zijn-wij.html">Wie zijn wij</a></li>
+                <li><a href="vacatures.html">Vacatures</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="5p.html">5p model</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contactgegevens</h1>
+        <p>Neem contact met ons op via een van de onderstaande kanalen:</p>
+        <ul>
+            <li><strong>E-mail:</strong> <a href="mailto:FiveBit.official@hotmail.com">FiveBit.official@hotmail.com</a></li>
+            <li><strong>Instagram:</strong> <a href="https://www.instagram.com/fiveb.it/" target="_blank">@Fiveb.it</a></li>
+            <li><strong>X (voorheen Twitter):</strong> <a href="https://x.com/FiveBitofficial" target="_blank">@FiveBitofficial</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/five-bit-25b223340" target="_blank">Five Bit</a></li>
+        </ul>
+
+        <h2>Stuur ons een bericht</h2>
+        <p>Heb je een vraag of wil je meer weten over onze diensten? Vul het onderstaande formulier in en we nemen zo snel mogelijk contact met je op.</p>
+
+        <!-- Contact Form -->
+        <form action="send_message.php" method="POST" id="contact-form">
+            <div class="form-group">
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Verstuur Bericht</button>
+        </form>
+
+        <h2>Bezoek ons kantoor</h2>
+        <p>Ons kantoor is gelegen op het volgende adres:</p>
+        <address>
+            Five Bit <br>
+            Straatnaam 123 <br>
+            1234 AB Stad <br>
+            Nederland
+        </address>
+
+        <h2>Onze Locatie</h2>
+        <!-- Google Maps Embed (voorbeeld) -->
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.203762123244!2d4.897070515578804!3d52.37795697977675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609207eb3ed65%3A0x64d5d1c2f68b98da!2sDam%20Square%2C%2010100%20Amsterdam%2C%20Nederland!5e0!3m2!1snl!2sus!4v1683942116439!5m2!1snl!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Five Bit. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
